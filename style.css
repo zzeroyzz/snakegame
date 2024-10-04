@@ -1,0 +1,90 @@
+/* Retro pixel-style font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive; /* Retro font */
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4c2c2; /* Light beige/rose background for retro feel */
+}
+
+.wrapper {
+  width: 65vmin;
+  height: 70vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  border: 4px solid #000000; /* Thick black border for retro screen look */
+  border-radius: 10px;
+  background: #293447;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5); /* Strong shadow for depth */
+}
+
+.game-details {
+  color: #00ff00; /* Bright green for score, typical in old video games */
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000; /* Black background for contrast */
+  border-bottom: 2px solid #00ff00;
+}
+
+.play-board {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  background: #1b1b1b; /* Darker gray for retro screen look */
+  grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+}
+
+.play-board .food {
+  background-color: #f54242; /* Bright red for food */
+}
+
+.play-board .head {
+  background-color: #00ffff; /* Cyan for snake head */
+}
+
+.controls {
+  display: none;
+  justify-content: space-between;
+}
+
+.controls i {
+  padding: 25px 0;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #00ff00;
+  width: calc(100% / 4);
+  cursor: pointer;
+  border-right: 1px solid #171b26;
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    width: 90vmin;
+    height: 110vmin;
+  }
+  .game-details {
+    font-size: 0.8rem;
+    padding: 10px 15px;
+  }
+  .controls {
+    display: flex;
+  }
+  .controls i {
+    padding: 10px 0;
+    font-size: 1rem;
+  }
+}
