@@ -30,15 +30,24 @@ body {
 }
 
 .game-details {
-  color: #00ff00; /* Bright green for score, typical in old video games */
-  font-weight: 700;
-  font-size: 1rem;
-  padding: 10px 15px;
+  color: #B8C6DC;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 20px 27px;
   display: flex;
   justify-content: space-between;
-  background-color: #000000; /* Black background for contrast */
-  border-bottom: 2px solid #00ff00;
+  align-items: center; /* Align items vertically */
 }
+
+.reset-btn {
+  font-size: 1rem;
+  padding: 5px 10px;
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+
 
 .play-board {
   height: 100%;
