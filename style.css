@@ -79,6 +79,13 @@ body {
   cursor: pointer;
   border-right: 1px solid #171b26;
 }
+.score{
+  font-size:.8rem
+}
+.high-score{
+  font-size:.8rem
+
+}
 
 @media screen and (max-width: 800px) {
   .wrapper {
