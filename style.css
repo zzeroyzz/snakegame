@@ -1,11 +1,10 @@
-/* Retro pixel-style font */
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Press Start 2P', cursive; /* Retro font */
+  font-family: 'Press Start 2P', cursive;
 }
 
 body {
@@ -13,7 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: #f4c2c2; /* Light beige/rose background for retro feel */
+  background-color: #f4c2c2;
 }
 
 .container{
@@ -60,16 +59,16 @@ body {
   height: 100%;
   width: 100%;
   display: grid;
-  background: #1b1b1b; /* Darker gray for retro screen look */
+  background: #1b1b1b;
   grid-template: repeat(30, 1fr) / repeat(30, 1fr);
 }
 
 .play-board .food {
-  background-color: #f54242; /* Bright red for food */
+  background-color: #f54242;
 }
 
 .play-board .head {
-  background-color: #00ffff; /* Cyan for snake head */
+  background-color: #00ffff;
 }
 
 .controls {
@@ -96,9 +95,16 @@ body {
 .instructions-wrapper{
   display: flex;
   flex-direction: column;
+  background-color: #293447;
+  color:#B8C6DC;
   gap: 4px;
-  padding: 2rem;
+  border: 4px solid #000000;
+  border-radius: 10px;
+  padding: 5px;
   li{
+    font-size: .6em;
+  }
+  p{
     font-size: .6em;
   }
 }
