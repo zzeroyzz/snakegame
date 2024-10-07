@@ -2,6 +2,8 @@
 
 Welcome to the **Retro Snake Game**! This project brings back the classic fun of the snake game with a nostalgic retro twist. 🕹️ Relive the joy of 8-bit style gaming with this JavaScript-based snake game, styled to feel like you're playing on an old-school arcade machine!
 
+[Demo Snake Game](https://zzeroyzz.github.io/snakegame/)
+
 ## 📜 Features
 
 - 🎮 **Classic Snake Gameplay**: Guide the snake, collect food, and avoid hitting walls or your own body!
