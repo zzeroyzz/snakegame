@@ -16,6 +16,13 @@ body {
   background-color: #f4c2c2; /* Light beige/rose background for retro feel */
 }
 
+.container{
+  display:flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
 .wrapper {
   width: 65vmin;
   height: 70vmin;
@@ -86,6 +93,16 @@ body {
   font-size:.8rem
 
 }
+.instructions-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 2rem;
+  li{
+    font-size: .6em;
+  }
+}
+
 
 @media screen and (max-width: 800px) {
   .wrapper {
