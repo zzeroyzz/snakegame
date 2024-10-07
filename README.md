@@ -1,7 +1,3 @@
-Here's a fun and emoji-filled README for your Snake Game project! 🐍🎮
-
----
-
 # 🐍 Retro Snake Game 🎮
 
 Welcome to the **Retro Snake Game**! This project brings back the classic fun of the snake game with a nostalgic retro twist. 🕹️ Relive the joy of 8-bit style gaming with this JavaScript-based snake game, styled to feel like you're playing on an old-school arcade machine!
@@ -75,9 +71,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
----
-
-Enjoy the retro gaming experience and challenge yourself to get the highest score possible! 🕹️🚀
 
 ---
 
